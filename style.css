@@ -1,0 +1,250 @@
+.bo{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+   
+    
+}
+
+.container{
+    
+    background-color: rgb(164, 180, 233);
+    margin: 0%;
+    padding: 0%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+   
+   
+}
+h1{
+    
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Satisfy', cursive;
+    color: rgb(89, 89, 161);
+    font-size: xxx-large;
+    text-align: center;
+ 
+   
+}
+h3{
+    margin-top: 0;
+    margin-bottom: 0%;
+    color: rgb(59, 59, 94);
+    font-weight: lighter;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: x-large;
+
+}
+.photo{
+   margin-top: 40px;
+   border-radius: 20%;
+   margin-bottom: 20px;
+   margin-right: 60px;
+}
+.html{
+    margin-top: 40px;
+    border-radius: 10%;
+    margin-bottom: 20px;
+    margin-right: 60px;
+}
+.css{
+    margin-top:40px;
+    border-radius: 15%;
+    margin-bottom: 20px;
+}
+ .img{
+    display: flex;
+}
+.profile{
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+p{
+    font-size: x-large;
+    text-align: center;
+    vertical-align: baseline;
+    font-style: initial; 
+    margin-bottom: 50px;
+    color: rgb(66, 67, 104); 
+}
+h2{
+    color: rgb(6, 36, 83);
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+}
+.container-skills{
+    display: flex;
+    justify-content: center;
+}
+
+.skills{
+   
+    margin-top: 0;
+    
+}
+.logo{
+    
+   
+    margin-right: 20px;
+    
+}
+.container-projects{
+    display: flex;
+    justify-content: center;
+}
+.awspage{
+    margin-top: 0;
+    border: 30px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.aws{
+    font-weight: bold;
+    font-size:x-large;
+}
+.container-button{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(77, 77, 221);
+    color: blanchedalmond;
+    text-decoration: none;
+    border-radius: 20px;
+   
+}
+.container-contact{
+    margin-top: 50px;
+}
+.text{
+    color: rgb(9, 62, 131);
+}
+.container-button1{
+     margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(77, 77, 221);
+    color: blanchedalmond;
+    text-decoration: none;
+    border-radius: 20px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+footer{
+    margin-top: 50px;
+    background-color: rgb(139, 170, 221);
+    height: 150px;
+}
+.link{
+    padding: 30px;
+   
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+    
+}
+a{  font-size: larger;
+    color: rgb(5, 28, 104);
+    text-decoration: none;
+    
+}
+.copy{
+    margin-top: 20px;
+    color: rgb(29, 27, 57);
+    text-align: center;
+   
+}
+hr{
+  color: black;
+}
+@media (max-width:600px){
+    html{
+        display: block;
+    }
+    .bo{
+        display: block;
+    }
+   
+    .photo{
+       height: 70px;
+       width: 70px;
+    }
+    .html{
+        height: 70px;
+        width: 70px;
+    }
+    .css{
+        height: 70px;
+        width: 70px;
+    }
+    h1{
+        font-size:xxx-large;
+    }
+    h3{
+font-size: xx-large;
+    }
+   h2{
+    font-size: xx-large;
+   }
+   .web{
+    font-size: large;
+    margin-bottom: 100px;
+    writing-mode: horizontal-tb;
+    margin-left: 100px;
+  margin-right: 100px;
+   }
+
+   .container-skills{
+    display: inline;
+
+   }
+   .logo{
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+   .skills{
+    margin-top: 30px;
+    display: block;
+    margin-left: 70px;
+    margin-right: 70px;
+  
+   }
+   .container-projects{
+    display: inline;
+   }
+   .awspage{
+    height: 90px;
+    
+   }
+.button1{
+    position: relative;
+    left:170px ;
+}
+footer{
+    display: block;
+}
+    }
+
+
+    
